@@ -51,7 +51,15 @@ HR1-LE/
 │  ├─ 08_ETL_AND_VALIDATION.md
 │  ├─ 09_API_AND_DATABASE.md
 │  ├─ 10_HR1_IMPLEMENTATION_ROADMAP.md
-│  └─ 11_RESEARCH_BACKLOG.md
+│  ├─ 11_RESEARCH_BACKLOG.md
+│  ├─ 12_WEB_PRODUCT_ARCHITECTURE.md
+│  ├─ 13_SITEMAP_AND_WIREFRAMES.md
+│  ├─ 14_DATA_FLOW_FULL.md
+│  └─ 15_HR1_DISTRICT_COVERAGE.md
+├─ web/
+│  ├─ index.html
+│  ├─ assets/
+│  └─ data/hr1-admin.json
 ├─ research/
 │  └─ SOURCE_REGISTER.md
 ├─ db/
@@ -86,6 +94,44 @@ flowchart LR
     YLL --> API
     RANK --> API
 ```
+
+
+## Web prototype
+
+มี static interactive wireframe พร้อมใช้งานใน `web/` ครอบคลุม:
+
+- ภาพรวมเขตสุขภาพที่ 1
+- benchmark 8 จังหวัด
+- drill-down จังหวัด → อำเภอ
+- ครบ 8 จังหวัด / 103 อำเภอ
+- Life Expectancy / Life Table
+- Mortality / YLL
+- Lee–Carter Forecast
+- Data Quality
+- WHO Priority
+- Flow of Data
+- Data Management
+- Methodology / Site Map
+
+ค่าตัวเลขสุขภาพที่แสดงใน prototype เป็น **synthetic/demo values** เพื่อทดสอบ UX และ information architecture เท่านั้น ไม่ใช่ข้อมูลรายงานทางการ ส่วนข้อมูลชื่อ/รหัสพื้นที่ใช้ geography seed แยกไว้ใน `web/data/hr1-admin.json` และต้อง reconcile กับ official geography master ก่อน production.
+
+### Preview
+
+GitHub Pages workflow อยู่ที่ `.github/workflows/pages.yml` และ deploy เฉพาะ directory `web/`.
+
+สำหรับ local preview:
+
+```bash
+cd web
+python -m http.server 8000
+```
+
+อ่านรายละเอียดการออกแบบที่:
+
+- `docs/12_WEB_PRODUCT_ARCHITECTURE.md`
+- `docs/13_SITEMAP_AND_WIREFRAMES.md`
+- `docs/14_DATA_FLOW_FULL.md`
+- `docs/15_HR1_DISTRICT_COVERAGE.md`
 
 ## Critical conformance gaps
 
