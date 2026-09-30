@@ -1,0 +1,1131 @@
+{
+  "region": {
+    "code": "01",
+    "name_th": "เขตสุขภาพที่ 1",
+    "name_en": "Health Region 1"
+  },
+  "generated_from": {
+    "dataset": "Thailand Administrative Divisions Dataset",
+    "repository": "open-admin-data/thailand-administrative-divisions",
+    "version": "2026.06",
+    "license": "CC-BY-4.0",
+    "note": "Use as web-prototype geography seed. Verify against the production official geography master before operational deployment."
+  },
+  "totals": {
+    "provinces": 8,
+    "districts": 103,
+    "subdistricts": 759
+  },
+  "provinces": [
+    {
+      "code": "50",
+      "slug": "chiang-mai",
+      "name_th": "เชียงใหม่",
+      "name_en": "Chiang Mai",
+      "districts": [
+        {
+          "code": "5021",
+          "name_th": "ไชยปราการ",
+          "name_en": "Chai Prakan",
+          "slug": "chai-prakan",
+          "subdistricts": 4,
+          "villages": 44,
+          "lat": 19.748,
+          "lon": 99.145
+        },
+        {
+          "code": "5004",
+          "name_th": "เชียงดาว",
+          "name_en": "Chiang Dao",
+          "slug": "chiang-dao",
+          "subdistricts": 7,
+          "villages": 83,
+          "lat": 19.477,
+          "lon": 98.833
+        },
+        {
+          "code": "5002",
+          "name_th": "จอมทอง",
+          "name_en": "Chom Thong",
+          "slug": "chom-thong",
+          "subdistricts": 6,
+          "villages": 103,
+          "lat": 18.472,
+          "lon": 98.726
+        },
+        {
+          "code": "5024",
+          "name_th": "ดอยหล่อ",
+          "name_en": "Doi Lo",
+          "slug": "doi-lo",
+          "subdistricts": 4,
+          "villages": 54,
+          "lat": 18.504,
+          "lon": 98.841
+        },
+        {
+          "code": "5005",
+          "name_th": "ดอยสะเก็ด",
+          "name_en": "Doi Saket",
+          "slug": "doi-saket",
+          "subdistricts": 14,
+          "villages": 112,
+          "lat": 18.841,
+          "lon": 99.088
+        },
+        {
+          "code": "5017",
+          "name_th": "ดอยเต่า",
+          "name_en": "Doi Tao",
+          "slug": "doi-tao",
+          "subdistricts": 6,
+          "villages": 43,
+          "lat": 18.053,
+          "lon": 98.626
+        },
+        {
+          "code": "5009",
+          "name_th": "ฝาง",
+          "name_en": "Fang",
+          "slug": "fang",
+          "subdistricts": 6,
+          "villages": 89,
+          "lat": 19.879,
+          "lon": 99.209
+        },
+        {
+          "code": "5025",
+          "name_th": "กัลยาณิวัฒนา",
+          "name_en": "Galyani Vadhana",
+          "slug": "galyani-vadhana",
+          "subdistricts": 3,
+          "villages": 22,
+          "lat": 18.936,
+          "lon": 98.38
+        },
+        {
+          "code": "5015",
+          "name_th": "หางดง",
+          "name_en": "Hang Dong",
+          "slug": "hang-dong",
+          "subdistricts": 11,
+          "villages": 109,
+          "lat": 18.689,
+          "lon": 98.98
+        },
+        {
+          "code": "5016",
+          "name_th": "ฮอด",
+          "name_en": "Hot",
+          "slug": "hot",
+          "subdistricts": 6,
+          "villages": 61,
+          "lat": 18.103,
+          "lon": 98.583
+        },
+        {
+          "code": "5010",
+          "name_th": "แม่อาย",
+          "name_en": "Mae Ai",
+          "slug": "mae-ai",
+          "subdistricts": 6,
+          "villages": 83,
+          "lat": 19.948,
+          "lon": 99.28
+        },
+        {
+          "code": "5003",
+          "name_th": "แม่แจ่ม",
+          "name_en": "Mae Chaem",
+          "slug": "mae-chaem",
+          "subdistricts": 7,
+          "villages": 104,
+          "lat": 18.485,
+          "lon": 98.416
+        },
+        {
+          "code": "5023",
+          "name_th": "แม่ออน",
+          "name_en": "Mae On",
+          "slug": "mae-on",
+          "subdistricts": 6,
+          "villages": 49,
+          "lat": 18.758,
+          "lon": 99.263
+        },
+        {
+          "code": "5007",
+          "name_th": "แม่ริม",
+          "name_en": "Mae Rim",
+          "slug": "mae-rim",
+          "subdistricts": 11,
+          "villages": 92,
+          "lat": 18.929,
+          "lon": 98.948
+        },
+        {
+          "code": "5006",
+          "name_th": "แม่แตง",
+          "name_en": "Mae Taeng",
+          "slug": "mae-taeng",
+          "subdistricts": 13,
+          "villages": 147,
+          "lat": 19.144,
+          "lon": 99.024
+        },
+        {
+          "code": "5022",
+          "name_th": "แม่วาง",
+          "name_en": "Mae Wang",
+          "slug": "mae-wang",
+          "subdistricts": 5,
+          "villages": 58,
+          "lat": 18.554,
+          "lon": 98.849
+        },
+        {
+          "code": "5001",
+          "name_th": "เมืองเชียงใหม่",
+          "name_en": "Mueang Chiang Mai",
+          "slug": "mueang-chiang-mai",
+          "subdistricts": 15,
+          "villages": 156,
+          "lat": 18.785,
+          "lon": 98.985
+        },
+        {
+          "code": "5018",
+          "name_th": "อมก๋อย",
+          "name_en": "Omkoi",
+          "slug": "omkoi",
+          "subdistricts": 6,
+          "villages": 95,
+          "lat": 17.43,
+          "lon": 98.5
+        },
+        {
+          "code": "5011",
+          "name_th": "พร้าว",
+          "name_en": "Phrao",
+          "slug": "phrao",
+          "subdistricts": 11,
+          "villages": 109,
+          "lat": 19.359,
+          "lon": 99.202
+        },
+        {
+          "code": "5008",
+          "name_th": "สะเมิง",
+          "name_en": "Samoeng",
+          "slug": "samoeng",
+          "subdistricts": 5,
+          "villages": 44,
+          "lat": 18.977,
+          "lon": 98.739
+        },
+        {
+          "code": "5013",
+          "name_th": "สันกำแพง",
+          "name_en": "San Kamphaeng",
+          "slug": "san-kamphaeng",
+          "subdistricts": 10,
+          "villages": 100,
+          "lat": 18.735,
+          "lon": 99.136
+        },
+        {
+          "code": "5012",
+          "name_th": "สันป่าตอง",
+          "name_en": "San Pa Tong",
+          "slug": "san-pa-tong",
+          "subdistricts": 11,
+          "villages": 120,
+          "lat": 18.531,
+          "lon": 98.864
+        },
+        {
+          "code": "5014",
+          "name_th": "สันทราย",
+          "name_en": "San Sai",
+          "slug": "san-sai",
+          "subdistricts": 11,
+          "villages": 121,
+          "lat": 18.857,
+          "lon": 99.046
+        },
+        {
+          "code": "5019",
+          "name_th": "สารภี",
+          "name_en": "Saraphi",
+          "slug": "saraphi",
+          "subdistricts": 12,
+          "villages": 106,
+          "lat": 18.736,
+          "lon": 99.059
+        },
+        {
+          "code": "5020",
+          "name_th": "เวียงแหง",
+          "name_en": "Wiang Haeng",
+          "slug": "wiang-haeng",
+          "subdistricts": 3,
+          "villages": 23,
+          "lat": 19.615,
+          "lon": 98.632
+        }
+      ],
+      "district_count": 25,
+      "subdistrict_count": 199
+    },
+    {
+      "code": "57",
+      "slug": "chiang-rai",
+      "name_th": "เชียงราย",
+      "name_en": "Chiang Rai",
+      "districts": [
+        {
+          "code": "5703",
+          "name_th": "เชียงของ",
+          "name_en": "Chiang Khong",
+          "slug": "chiang-khong",
+          "subdistricts": 7,
+          "villages": 102,
+          "lat": 19.989,
+          "lon": 100.347
+        },
+        {
+          "code": "5708",
+          "name_th": "เชียงแสน",
+          "name_en": "Chiang Saen",
+          "slug": "chiang-saen",
+          "subdistricts": 6,
+          "villages": 71,
+          "lat": 20.28,
+          "lon": 100.003
+        },
+        {
+          "code": "5718",
+          "name_th": "ดอยหลวง",
+          "name_en": "Doi Luang",
+          "slug": "doi-luang",
+          "subdistricts": 3,
+          "villages": 33,
+          "lat": 20.181,
+          "lon": 100.124
+        },
+        {
+          "code": "5714",
+          "name_th": "ขุนตาล",
+          "name_en": "Khun Tan",
+          "slug": "khun-tan",
+          "subdistricts": 3,
+          "villages": 55,
+          "lat": 19.847,
+          "lon": 100.272
+        },
+        {
+          "code": "5707",
+          "name_th": "แม่จัน",
+          "name_en": "Mae Chan",
+          "slug": "mae-chan",
+          "subdistricts": 11,
+          "villages": 139,
+          "lat": 20.256,
+          "lon": 99.864
+        },
+        {
+          "code": "5715",
+          "name_th": "แม่ฟ้าหลวง",
+          "name_en": "Mae Fa Luang",
+          "slug": "mae-fa-luang",
+          "subdistricts": 4,
+          "villages": 78,
+          "lat": 20.141,
+          "lon": 99.654
+        },
+        {
+          "code": "5716",
+          "name_th": "แม่ลาว",
+          "name_en": "Mae Lao",
+          "slug": "mae-lao",
+          "subdistricts": 5,
+          "villages": 63,
+          "lat": 19.804,
+          "lon": 99.768
+        },
+        {
+          "code": "5709",
+          "name_th": "แม่สาย",
+          "name_en": "Mae Sai",
+          "slug": "mae-sai",
+          "subdistricts": 8,
+          "villages": 88,
+          "lat": 20.431,
+          "lon": 99.913
+        },
+        {
+          "code": "5710",
+          "name_th": "แม่สรวย",
+          "name_en": "Mae Suai",
+          "slug": "mae-suai",
+          "subdistricts": 7,
+          "villages": 131,
+          "lat": 19.63,
+          "lon": 99.524
+        },
+        {
+          "code": "5701",
+          "name_th": "เมืองเชียงราย",
+          "name_en": "Mueang Chiang Rai",
+          "slug": "mueang-chiang-rai",
+          "subdistricts": 15,
+          "villages": 282,
+          "lat": 19.907,
+          "lon": 99.832
+        },
+        {
+          "code": "5705",
+          "name_th": "พาน",
+          "name_en": "Mueang Phan",
+          "slug": "mueang-phan",
+          "subdistricts": 15,
+          "villages": 236,
+          "lat": 19.575,
+          "lon": 99.765
+        },
+        {
+          "code": "5706",
+          "name_th": "ป่าแดด",
+          "name_en": "Pa Daet",
+          "slug": "pa-daet",
+          "subdistricts": 5,
+          "villages": 59,
+          "lat": 19.435,
+          "lon": 99.934
+        },
+        {
+          "code": "5712",
+          "name_th": "พญาเม็งราย",
+          "name_en": "Phaya Mengrai",
+          "slug": "phaya-mengrai",
+          "subdistricts": 5,
+          "villages": 72,
+          "lat": 19.926,
+          "lon": 100.239
+        },
+        {
+          "code": "5704",
+          "name_th": "เทิง",
+          "name_en": "Thoeng",
+          "slug": "thoeng",
+          "subdistricts": 10,
+          "villages": 156,
+          "lat": 19.717,
+          "lon": 100.18
+        },
+        {
+          "code": "5702",
+          "name_th": "เวียงชัย",
+          "name_en": "Wiang Chai",
+          "slug": "wiang-chai",
+          "subdistricts": 5,
+          "villages": 75,
+          "lat": 19.904,
+          "lon": 99.974
+        },
+        {
+          "code": "5717",
+          "name_th": "เวียงเชียงรุ้ง",
+          "name_en": "Wiang Chiang Rung",
+          "slug": "wiang-chiang-rung",
+          "subdistricts": 3,
+          "villages": 43,
+          "lat": 20.041,
+          "lon": 100.006
+        },
+        {
+          "code": "5713",
+          "name_th": "เวียงแก่น",
+          "name_en": "Wiang Kaen",
+          "slug": "wiang-kaen",
+          "subdistricts": 4,
+          "villages": 41,
+          "lat": 20.042,
+          "lon": 100.52
+        },
+        {
+          "code": "5711",
+          "name_th": "เวียงป่าเป้า",
+          "name_en": "Wiang Pa Pao",
+          "slug": "wiang-pa-pao",
+          "subdistricts": 7,
+          "villages": 93,
+          "lat": 19.241,
+          "lon": 99.525
+        }
+      ],
+      "district_count": 18,
+      "subdistrict_count": 123
+    },
+    {
+      "code": "51",
+      "slug": "lamphun",
+      "name_th": "ลำพูน",
+      "name_en": "Lamphun",
+      "districts": [
+        {
+          "code": "5103",
+          "name_th": "บ้านโฮ่ง",
+          "name_en": "Ban Hong",
+          "slug": "ban-hong",
+          "subdistricts": 5,
+          "villages": 62,
+          "lat": 18.383,
+          "lon": 98.75
+        },
+        {
+          "code": "5107",
+          "name_th": "บ้านธิ",
+          "name_en": "Ban Thi",
+          "slug": "ban-thi",
+          "subdistricts": 2,
+          "villages": 36,
+          "lat": 18.679,
+          "lon": 99.163
+        },
+        {
+          "code": "5104",
+          "name_th": "ลี้",
+          "name_en": "Li",
+          "slug": "li",
+          "subdistricts": 8,
+          "villages": 99,
+          "lat": 17.742,
+          "lon": 99.062
+        },
+        {
+          "code": "5102",
+          "name_th": "แม่ทา",
+          "name_en": "Mae Tha",
+          "slug": "mae-tha",
+          "subdistricts": 6,
+          "villages": 71,
+          "lat": 18.438,
+          "lon": 99.03
+        },
+        {
+          "code": "5101",
+          "name_th": "เมืองลำพูน",
+          "name_en": "Mueang Lamphun",
+          "slug": "mueang-lamphun",
+          "subdistricts": 15,
+          "villages": 176,
+          "lat": 18.573,
+          "lon": 99.002
+        },
+        {
+          "code": "5106",
+          "name_th": "ป่าซาง",
+          "name_en": "Pa Sang",
+          "slug": "pa-sang",
+          "subdistricts": 9,
+          "villages": 90,
+          "lat": 18.537,
+          "lon": 98.933
+        },
+        {
+          "code": "5105",
+          "name_th": "ทุ่งหัวช้าง",
+          "name_en": "Thung Hua Chang",
+          "slug": "thung-hua-chang",
+          "subdistricts": 3,
+          "villages": 35,
+          "lat": 17.983,
+          "lon": 99.048
+        },
+        {
+          "code": "5108",
+          "name_th": "เวียงหนองล่อง",
+          "name_en": "Wiang Nong Long",
+          "slug": "wiang-nong-long",
+          "subdistricts": 3,
+          "villages": 25,
+          "lat": 18.415,
+          "lon": 98.78
+        }
+      ],
+      "district_count": 8,
+      "subdistrict_count": 51
+    },
+    {
+      "code": "52",
+      "slug": "lampang",
+      "name_th": "ลำปาง",
+      "name_en": "Lampang",
+      "districts": [
+        {
+          "code": "5206",
+          "name_th": "แจ้ห่ม",
+          "name_en": "Chae Hom",
+          "slug": "chae-hom",
+          "subdistricts": 7,
+          "villages": 66,
+          "lat": 18.726,
+          "lon": 99.557
+        },
+        {
+          "code": "5212",
+          "name_th": "ห้างฉัตร",
+          "name_en": "Hang Chat",
+          "slug": "hang-chat",
+          "subdistricts": 7,
+          "villages": 73,
+          "lat": 18.337,
+          "lon": 99.353
+        },
+        {
+          "code": "5203",
+          "name_th": "เกาะคา",
+          "name_en": "Ko Kha",
+          "slug": "ko-kha",
+          "subdistricts": 9,
+          "villages": 78,
+          "lat": 18.196,
+          "lon": 99.413
+        },
+        {
+          "code": "5202",
+          "name_th": "แม่เมาะ",
+          "name_en": "Mae Mo",
+          "slug": "mae-mo",
+          "subdistricts": 5,
+          "villages": 44,
+          "lat": 18.25,
+          "lon": 99.807
+        },
+        {
+          "code": "5209",
+          "name_th": "แม่พริก",
+          "name_en": "Mae Phrik",
+          "slug": "mae-phrik",
+          "subdistricts": 4,
+          "villages": 30,
+          "lat": 17.539,
+          "lon": 99.152
+        },
+        {
+          "code": "5210",
+          "name_th": "แม่ทะ",
+          "name_en": "Mae Tha",
+          "slug": "mae-tha",
+          "subdistricts": 10,
+          "villages": 95,
+          "lat": 18.122,
+          "lon": 99.477
+        },
+        {
+          "code": "5201",
+          "name_th": "เมืองลำปาง",
+          "name_en": "Mueang Lampang",
+          "slug": "mueang-lampang",
+          "subdistricts": 16,
+          "villages": 235,
+          "lat": 18.29,
+          "lon": 99.492
+        },
+        {
+          "code": "5213",
+          "name_th": "เมืองปาน",
+          "name_en": "Mueang Pan",
+          "slug": "mueang-pan",
+          "subdistricts": 5,
+          "villages": 56,
+          "lat": 18.797,
+          "lon": 99.446
+        },
+        {
+          "code": "5205",
+          "name_th": "งาว",
+          "name_en": "Ngao",
+          "slug": "ngao",
+          "subdistricts": 10,
+          "villages": 85,
+          "lat": 18.752,
+          "lon": 99.996
+        },
+        {
+          "code": "5204",
+          "name_th": "เสริมงาม",
+          "name_en": "Soem Ngam",
+          "slug": "soem-ngam",
+          "subdistricts": 4,
+          "villages": 42,
+          "lat": 18.071,
+          "lon": 99.244
+        },
+        {
+          "code": "5211",
+          "name_th": "สบปราบ",
+          "name_en": "Sop Prap",
+          "slug": "sop-prap",
+          "subdistricts": 4,
+          "villages": 46,
+          "lat": 17.9,
+          "lon": 99.421
+        },
+        {
+          "code": "5208",
+          "name_th": "เถิน",
+          "name_en": "Thoen",
+          "slug": "thoen",
+          "subdistricts": 8,
+          "villages": 95,
+          "lat": 17.634,
+          "lon": 99.212
+        },
+        {
+          "code": "5207",
+          "name_th": "วังเหนือ",
+          "name_en": "Wang Nuea",
+          "slug": "wang-nuea",
+          "subdistricts": 8,
+          "villages": 80,
+          "lat": 19.08,
+          "lon": 99.649
+        }
+      ],
+      "district_count": 13,
+      "subdistrict_count": 97
+    },
+    {
+      "code": "56",
+      "slug": "phayao",
+      "name_th": "พะเยา",
+      "name_en": "Phayao",
+      "districts": [
+        {
+          "code": "5603",
+          "name_th": "เชียงคำ",
+          "name_en": "Chiang Kham",
+          "slug": "chiang-kham",
+          "subdistricts": 10,
+          "villages": 135,
+          "lat": 19.495,
+          "lon": 100.327
+        },
+        {
+          "code": "5604",
+          "name_th": "เชียงม่วน",
+          "name_en": "Chiang Muan",
+          "slug": "chiang-muan",
+          "subdistricts": 3,
+          "villages": 34,
+          "lat": 18.888,
+          "lon": 100.334
+        },
+        {
+          "code": "5602",
+          "name_th": "จุน",
+          "name_en": "Chun",
+          "slug": "chun",
+          "subdistricts": 7,
+          "villages": 86,
+          "lat": 19.378,
+          "lon": 100.163
+        },
+        {
+          "code": "5605",
+          "name_th": "ดอกคำใต้",
+          "name_en": "Dok Khamtai",
+          "slug": "dok-khamtai",
+          "subdistricts": 12,
+          "villages": 125,
+          "lat": 19.134,
+          "lon": 99.998
+        },
+        {
+          "code": "5607",
+          "name_th": "แม่ใจ",
+          "name_en": "Mae Chai",
+          "slug": "mae-chai",
+          "subdistricts": 6,
+          "villages": 66,
+          "lat": 19.33,
+          "lon": 99.846
+        },
+        {
+          "code": "5601",
+          "name_th": "เมืองพะเยา",
+          "name_en": "Mueang Phayao",
+          "slug": "mueang-phayao",
+          "subdistricts": 15,
+          "villages": 186,
+          "lat": 19.172,
+          "lon": 99.894
+        },
+        {
+          "code": "5609",
+          "name_th": "ภูกามยาว",
+          "name_en": "Phu Kamyao",
+          "slug": "phu-kamyao",
+          "subdistricts": 3,
+          "villages": 41,
+          "lat": 19.241,
+          "lon": 99.989
+        },
+        {
+          "code": "5608",
+          "name_th": "ภูซาง",
+          "name_en": "Phu Sang",
+          "slug": "phu-sang",
+          "subdistricts": 5,
+          "villages": 59,
+          "lat": 19.622,
+          "lon": 100.37
+        },
+        {
+          "code": "5606",
+          "name_th": "ปง",
+          "name_en": "Pong",
+          "slug": "pong",
+          "subdistricts": 7,
+          "villages": 88,
+          "lat": 19.182,
+          "lon": 100.374
+        }
+      ],
+      "district_count": 9,
+      "subdistrict_count": 68
+    },
+    {
+      "code": "54",
+      "slug": "phrae",
+      "name_th": "แพร่",
+      "name_en": "Phrae",
+      "districts": [
+        {
+          "code": "5405",
+          "name_th": "เด่นชัย",
+          "name_en": "Den Chai",
+          "slug": "den-chai",
+          "subdistricts": 5,
+          "villages": 52,
+          "lat": 17.973,
+          "lon": 100.04
+        },
+        {
+          "code": "5403",
+          "name_th": "ลอง",
+          "name_en": "Long",
+          "slug": "long",
+          "subdistricts": 9,
+          "villages": 90,
+          "lat": 18.042,
+          "lon": 99.811
+        },
+        {
+          "code": "5401",
+          "name_th": "เมืองแพร่",
+          "name_en": "Mueang Phrae",
+          "slug": "mueang-phrae",
+          "subdistricts": 20,
+          "villages": 184,
+          "lat": 18.14,
+          "lon": 100.142
+        },
+        {
+          "code": "5408",
+          "name_th": "หนองม่วงไข่",
+          "name_en": "Nong Muang Khai",
+          "slug": "nong-muang-khai",
+          "subdistricts": 6,
+          "villages": 35,
+          "lat": 18.271,
+          "lon": 100.218
+        },
+        {
+          "code": "5402",
+          "name_th": "ร้องกวาง",
+          "name_en": "Rong Kwang",
+          "slug": "rong-kwang",
+          "subdistricts": 11,
+          "villages": 93,
+          "lat": 18.304,
+          "lon": 100.257
+        },
+        {
+          "code": "5406",
+          "name_th": "สอง",
+          "name_en": "Song",
+          "slug": "song",
+          "subdistricts": 8,
+          "villages": 85,
+          "lat": 18.365,
+          "lon": 100.198
+        },
+        {
+          "code": "5404",
+          "name_th": "สูงเม่น",
+          "name_en": "Sung Men",
+          "slug": "sung-men",
+          "subdistricts": 12,
+          "villages": 110,
+          "lat": 18.09,
+          "lon": 100.168
+        },
+        {
+          "code": "5407",
+          "name_th": "วังชิ้น",
+          "name_en": "Wang Chin",
+          "slug": "wang-chin",
+          "subdistricts": 7,
+          "villages": 77,
+          "lat": 17.945,
+          "lon": 99.556
+        }
+      ],
+      "district_count": 8,
+      "subdistrict_count": 78
+    },
+    {
+      "code": "55",
+      "slug": "nan",
+      "name_th": "น่าน",
+      "name_en": "Nan",
+      "districts": [
+        {
+          "code": "5503",
+          "name_th": "บ้านหลวง",
+          "name_en": "Ban Luang",
+          "slug": "ban-luang",
+          "subdistricts": 4,
+          "villages": 26,
+          "lat": 18.858,
+          "lon": 100.405
+        },
+        {
+          "code": "5512",
+          "name_th": "บ่อเกลือ",
+          "name_en": "Bo Kluea",
+          "slug": "bo-kluea",
+          "subdistricts": 4,
+          "villages": 39,
+          "lat": 19.297,
+          "lon": 101.176
+        },
+        {
+          "code": "5515",
+          "name_th": "เฉลิมพระเกียรติ",
+          "name_en": "Chaloem Phra Kiat",
+          "slug": "chaloem-phra-kiat",
+          "subdistricts": 2,
+          "villages": 22,
+          "lat": 19.559,
+          "lon": 101.046
+        },
+        {
+          "code": "5509",
+          "name_th": "เชียงกลาง",
+          "name_en": "Chiang Klang",
+          "slug": "chiang-klang",
+          "subdistricts": 6,
+          "villages": 60,
+          "lat": 19.246,
+          "lon": 100.855
+        },
+        {
+          "code": "5502",
+          "name_th": "แม่จริม",
+          "name_en": "Mae Charim",
+          "slug": "mae-charim",
+          "subdistricts": 5,
+          "villages": 38,
+          "lat": 18.687,
+          "lon": 100.975
+        },
+        {
+          "code": "5501",
+          "name_th": "เมืองน่าน",
+          "name_en": "Mueang Nan",
+          "slug": "mueang-nan",
+          "subdistricts": 11,
+          "villages": 137,
+          "lat": 18.793,
+          "lon": 100.786
+        },
+        {
+          "code": "5510",
+          "name_th": "นาหมื่น",
+          "name_en": "Na Muen",
+          "slug": "na-muen",
+          "subdistricts": 4,
+          "villages": 48,
+          "lat": 18.226,
+          "lon": 100.505
+        },
+        {
+          "code": "5504",
+          "name_th": "นาน้อย",
+          "name_en": "Na Noi",
+          "slug": "na-noi",
+          "subdistricts": 7,
+          "villages": 68,
+          "lat": 18.313,
+          "lon": 100.681
+        },
+        {
+          "code": "5514",
+          "name_th": "ภูเพียง",
+          "name_en": "Phu Phiang",
+          "slug": "phu-phiang",
+          "subdistricts": 7,
+          "villages": 61,
+          "lat": 18.756,
+          "lon": 100.816
+        },
+        {
+          "code": "5505",
+          "name_th": "ปัว",
+          "name_en": "Pua",
+          "slug": "pua",
+          "subdistricts": 12,
+          "villages": 107,
+          "lat": 19.13,
+          "lon": 100.9
+        },
+        {
+          "code": "5511",
+          "name_th": "สันติสุข",
+          "name_en": "Santi Suk",
+          "slug": "santi-suk",
+          "subdistricts": 3,
+          "villages": 31,
+          "lat": 18.898,
+          "lon": 100.902
+        },
+        {
+          "code": "5513",
+          "name_th": "สองแคว",
+          "name_en": "Song Khwae",
+          "slug": "song-khwae",
+          "subdistricts": 3,
+          "villages": 25,
+          "lat": 19.384,
+          "lon": 100.567
+        },
+        {
+          "code": "5506",
+          "name_th": "ท่าวังผา",
+          "name_en": "Tha Wang Pha",
+          "slug": "tha-wang-pha",
+          "subdistricts": 10,
+          "villages": 91,
+          "lat": 19.119,
+          "lon": 100.798
+        },
+        {
+          "code": "5508",
+          "name_th": "ทุ่งช้าง",
+          "name_en": "Thung Chang",
+          "slug": "thung-chang",
+          "subdistricts": 4,
+          "villages": 40,
+          "lat": 19.447,
+          "lon": 100.811
+        },
+        {
+          "code": "5507",
+          "name_th": "เวียงสา",
+          "name_en": "Wiang Sa",
+          "slug": "wiang-sa",
+          "subdistricts": 17,
+          "villages": 128,
+          "lat": 18.679,
+          "lon": 100.837
+        }
+      ],
+      "district_count": 15,
+      "subdistrict_count": 99
+    },
+    {
+      "code": "58",
+      "slug": "mae-hong-son",
+      "name_th": "แม่ฮ่องสอน",
+      "name_en": "Mae Hong Son",
+      "districts": [
+        {
+          "code": "5802",
+          "name_th": "ขุนยวม",
+          "name_en": "Khun Yuam",
+          "slug": "khun-yuam",
+          "subdistricts": 6,
+          "villages": 43,
+          "lat": 18.742,
+          "lon": 98.051
+        },
+        {
+          "code": "5805",
+          "name_th": "แม่ลาน้อย",
+          "name_en": "Mae La Noi",
+          "slug": "mae-la-noi",
+          "subdistricts": 8,
+          "villages": 69,
+          "lat": 18.37,
+          "lon": 98.102
+        },
+        {
+          "code": "5804",
+          "name_th": "แม่สะเรียง",
+          "name_en": "Mae Sariang",
+          "slug": "mae-sariang",
+          "subdistricts": 7,
+          "villages": 77,
+          "lat": 18.148,
+          "lon": 97.972
+        },
+        {
+          "code": "5801",
+          "name_th": "เมืองแม่ฮ่องสอน",
+          "name_en": "Mueang Mae Hong Son",
+          "slug": "mueang-mae-hong-son",
+          "subdistricts": 6,
+          "villages": 66,
+          "lat": 19.302,
+          "lon": 97.97
+        },
+        {
+          "code": "5803",
+          "name_th": "ปาย",
+          "name_en": "Pai",
+          "slug": "pai",
+          "subdistricts": 7,
+          "villages": 62,
+          "lat": 19.362,
+          "lon": 98.419
+        },
+        {
+          "code": "5807",
+          "name_th": "ปางมะผ้า",
+          "name_en": "Pang Mapha",
+          "slug": "pang-mapha",
+          "subdistricts": 4,
+          "villages": 38,
+          "lat": 19.615,
+          "lon": 98.204
+        },
+        {
+          "code": "5806",
+          "name_th": "สบเมย",
+          "name_en": "Sop Moei",
+          "slug": "sop-moei",
+          "subdistricts": 6,
+          "villages": 58,
+          "lat": 18.113,
+          "lon": 98.166
+        }
+      ],
+      "district_count": 7,
+      "subdistrict_count": 44
+    }
+  ]
+}
