@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="HR1-LE prototype: Life Expectancy, mortality, Lee-Carter forecast and priority analytics for Health Region 1.">
+  <title>HR1 Health Intelligence · Life Expectancy</title>
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+  <div class="prototype-banner">
+    PROTOTYPE / WIREFRAME — ค่าตัวเลขในหน้าต้นแบบเป็นข้อมูลสาธิต ไม่ใช่ข้อมูลรายงานทางการ
+  </div>
+
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#/overview">
+        <span class="brand-mark">H1</span>
+        <span><b>Health Region 1</b><small>Life & Mortality Intelligence</small></span>
+      </a>
+
+      <nav id="nav">
+        <div class="nav-section">ภาพรวม</div>
+        <a data-route="overview" href="#/overview">ภาพรวมเขต</a>
+        <a data-route="benchmark" href="#/benchmark">เปรียบเทียบ 8 จังหวัด</a>
+        <a data-route="province" href="#/province/50">จังหวัด / อำเภอ</a>
+
+        <div class="nav-section">ภาระสุขภาพ</div>
+        <a data-route="life-expectancy" href="#/life-expectancy">Life Expectancy</a>
+        <a data-route="mortality" href="#/mortality">การตาย / YLL</a>
+        <a data-route="forecast" href="#/forecast">Lee–Carter Forecast</a>
+        <a data-route="quality" href="#/quality">Data Quality</a>
+        <a data-route="priority" href="#/priority">WHO Priority</a>
+
+        <div class="nav-section">ระบบข้อมูล</div>
+        <a data-route="data-flow" href="#/data-flow">Flow of Data</a>
+        <a data-route="data-management" href="#/data-management">Data Management</a>
+        <a data-route="methodology" href="#/methodology">Methodology</a>
+        <a data-route="sitemap" href="#/sitemap">Site Map</a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div>HR1-LE · prototype</div>
+        <div>8 จังหวัด · 103 อำเภอ</div>
+      </div>
+    </aside>
+
+    <section class="workspace">
+      <header class="topbar">
+        <div>
+          <button id="menuBtn" class="icon-btn mobile-only" aria-label="menu">☰</button>
+          <span class="eyebrow">ระบบวิเคราะห์สุขภาพประชากร เขตสุขภาพที่ 1</span>
+          <h1 id="pageTitle">ภาพรวมเขตสุขภาพที่ 1</h1>
+        </div>
+        <div class="top-controls">
+          <label>ปี
+            <select id="yearSelect">
+              <option>2568</option>
+              <option selected>2569</option>
+              <option>2570</option>
+            </select>
+          </label>
+          <label>เพศ
+            <select id="sexSelect">
+              <option value="B" selected>รวม</option>
+              <option value="M">ชาย</option>
+              <option value="F">หญิง</option>
+            </select>
+          </label>
+        </div>
+      </header>
+
+      <main id="app" class="content" aria-live="polite"></main>
+
+      <footer class="footer">
+        <span>HR1-LE technical prototype</span>
+        <span>Geography seed: Thailand Administrative Divisions Dataset 2026.06 · CC-BY-4.0</span>
+      </footer>
+    </section>
+  </div>
+
+  <script src="./assets/app.js"></script>
+</body>
+</html>
