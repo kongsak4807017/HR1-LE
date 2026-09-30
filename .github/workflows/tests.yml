@@ -14,4 +14,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements-dev.txt
-      - run: pytest -q
+      - name: Python reference tests
+        env:
+          PYTHONPATH: .
+        run: pytest -q
+      - name: Web JavaScript syntax
+        run: node --check web/assets/app.js
+      - name: Geography JSON integrity
+        run: python -c "import json; d=json.load(open('web/data/hr1-admin.json',encoding='utf-8')); assert d['totals']['provinces']==8; assert d['totals']['districts']==103"
